@@ -1,0 +1,73 @@
+.tracklist__container {
+    margin: 4% 9% 0 9% !important;
+}
+
+@media (max-width: 767px) {
+    .tracklist__container {
+        margin-top: 12% !important;
+    }
+}
+
+.tracklist__title {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 2.8em;
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+    .tracklist__title {
+        font-size: 1.5em;
+    }
+}
+
+.tracklist__track,
+.tracklist__num,
+.tracklist__duration {
+    color: white;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+}
+
+.tracklist__song {
+    font-weight: 600;
+    font-size: 1.125em;
+    letter-spacing: 0.02em;
+}
+
+.tracklist__artist {
+    font-weight: 600;
+    font-size: 0.875em;
+    letter-spacing: 0.02em;
+}
+
+@media (max-width: 767px) {
+    .tracklist__artist {
+        font-size: 0.6em;
+    }
+    .tracklist__song {
+        font-size: 0.75em;
+    }
+}
+
+.tracklist__duration {
+    font-size: 1.125em;
+}
+
+.tracklist__btn {
+    background: transparent;
+    border: none;
+}
+
+.tracklist__content {
+    padding-top: 0% !important;
+}
+
+@media (max-width: 767px) {
+    .tracklist__shareBtn {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .tracklist__duration {
+        font-size: 0.9em;
+    }
+}

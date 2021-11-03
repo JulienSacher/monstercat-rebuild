@@ -1,0 +1,48 @@
+.stream__container {
+    margin: 6.4% 9% 0 9% !important;
+}
+
+@media (max-width: 767px) {
+    .stream__container {
+        margin-top: 12% !important;
+    }
+}
+
+.stream__title {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 2.8em;
+}
+
+@media (max-width: 767px) {
+    .stream__title {
+        font-size: 1.5em;
+    }
+}
+
+.stream__links {
+    border: 1px solid white;
+    padding: 1.4em;
+}
+
+.stream__playText {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.stream__content {
+    padding-top: 1.5%;
+}
+
+@media (max-width: 767px) {
+    .stream__content {
+        width: 100% !important;
+    }
+    .stream__links {
+        padding: 0.5em;
+    }
+    .stream__playText {
+        font-size: 0.8em;
+    }
+}

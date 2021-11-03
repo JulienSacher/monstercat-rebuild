@@ -1,0 +1,129 @@
+.footer__container {
+    margin: 7% 9% 0 9% !important;
+}
+
+@media (max-width: 767px) {
+    .footer__container {
+        margin-top: 12% !important;
+    }
+}
+
+.footer__content {
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+
+.footer__input {
+    border-bottom: solid 1px #6b6b6b;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 1.125em;
+    letter-spacing: 0.05em;
+}
+
+@media (max-width: 767px) {
+    .footer__link {
+        font-size: 1em;
+    }
+    .footer__linkResp {
+        margin-top: 2%;
+    }
+}
+
+.footer__subtitle {
+    color: #6b6b6b;
+    text-transform: uppercase;
+    font-size: 1.125em;
+    letter-spacing: 0.05em;
+    margin-bottom: 0;
+}
+
+.footer__quote {
+    color: #d8d8d8;
+    font-style: italic;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    letter-spacing: 0.07em;
+    font-size: 1.125em;
+}
+
+@media (max-width: 767px) {
+    .footer__quote {
+        font-size: 1em;
+    }
+    .footer__subtitle {
+        margin-top: 10%;
+        font-size: 1em;
+    }
+}
+
+.footer__mail {
+    background: transparent;
+    border: none;
+    width: 87%;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    letter-spacing: 0.1em;
+    color: #6b6b6b;
+    font-size: 1.125em;
+}
+
+.footer__btn {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.footer__btn:hover {
+    background: white;
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .footer__copyrightBlock {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.footer__copyright {
+    color: #d8d8d8;
+    font-style: italic;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    letter-spacing: 0.07em;
+    font-size: 1.1em;
+}
+
+@media (max-width: 767px) {
+    .footer__copyright {
+        font-size: 0.9em;
+    }
+    .footer__socialsIcon {
+        margin-left: 1em !important;
+    }
+    .footer__li {
+        justify-content: start !important;
+        flex-wrap: wrap;
+        margin-top: 5% !important;
+    }
+}
+
+.footer__bottom {
+    margin: 4% 20% 4% 20%;
+}
+
+@media (max-width: 767px) {
+    .footer__bottom {
+        margin: 4% 0 4% 0;
+        margin-top: 20%;
+    }
+}
+
+.footer__text {
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    font-style: italic;
+    font-size: 0.81em;
+    letter-spacing: 0.02em;
+}

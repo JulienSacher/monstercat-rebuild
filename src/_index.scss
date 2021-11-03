@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'monument_extendedregular';
+  src: url('../src/font/monumentextended-regular-webfont.woff2') format('woff2'),
+       url('../src/font/monumentextended-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'monument_extendedultrabold';
+  src: url('../src/font/monumentextended-ultrabold-webfont.woff2') format('woff2'),
+       url('../src/font/monumentextended-ultrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+  margin: 0;
+  font-family: 'monument_extendedregular' !important;
+  background-color: #000000 !important;
+  color: #fdfdfd !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
