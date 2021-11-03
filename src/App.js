@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import "./App.scss";
 import Artist from "./components/page/Artist";
 import Cover from "./components/page/Cover";
@@ -28,7 +27,7 @@ function App() {
   return (
     <div>
       <div
-        /*className="cursor"
+      /*className="cursor"
         style={{
           transform: `translate3d(${cursorXY.x}px, ${cursorXY.y}px, 0)`,
         }}*/

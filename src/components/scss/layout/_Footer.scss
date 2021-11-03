@@ -9,8 +9,8 @@
 }
 
 .footer__content {
-    border-top: solid 1px white;
-    border-bottom: solid 1px white;
+    border-top: solid 1px #fdfdfd;
+    border-bottom: solid 1px #fdfdfd;
 }
 
 .footer__input {
@@ -19,7 +19,7 @@
 
 .footer__link {
     text-decoration: none;
-    color: white !important;
+    color: #fdfdfd !important;
     text-transform: uppercase;
     font-size: 1.125em;
     letter-spacing: 0.05em;
@@ -68,17 +68,18 @@
     letter-spacing: 0.1em;
     color: #6b6b6b;
     font-size: 1.125em;
+    outline: none;
 }
 
 .footer__btn {
     background: transparent;
     border: none;
-    color: white;
+    color: #fdfdfd;
 }
 
 .footer__btn:hover {
-    background: white;
-    color: black;
+    background: #fdfdfd;
+    color: #000000;
 }
 
 @media (max-width: 767px) {

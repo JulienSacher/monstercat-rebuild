@@ -122,7 +122,7 @@ function Nav() {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingOne">
               <button
-                className="accordion-button collapsed"
+                className="accordion-button collapsed me-5"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"

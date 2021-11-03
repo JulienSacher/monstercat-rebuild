@@ -23,14 +23,14 @@
 }
 
 .accordion-body {
-    color: black !important;
-    background: black !important;
-    color: white !important;
+    color: #000000 !important;
+    background: #000000 !important;
+    color: #fdfdfd !important;
 }
 
 .accordion-button {
-    background: black !important;
-    color: white !important;
+    background: #000000 !important;
+    color: #fdfdfd !important;
     text-transform: uppercase;
     padding-left: 7% !important;
     padding-top: 2.5% !important;
@@ -41,7 +41,7 @@
 
 .nav__dropdown {
     text-decoration: none !important;
-    color: white !important;
+    color: #fdfdfd !important;
     text-transform: uppercase !important;
     margin-left: 7% !important;
     font-size: 0.875em !important;
@@ -50,27 +50,27 @@
 
 .nav__dropdownLow {
     text-decoration: none !important;
-    color: white !important;
+    color: #fdfdfd !important;
     padding-left: 7% !important;
     font-size: 0.875em !important;
     padding-right: 10% !important;
 }
 
 .accordion-button:not(.collapsed) {
-    color: white !important;
+    color: #fdfdfd !important;
     background-color: black !important;
     box-shadow: none !important;
 }
 
 .nav__links {
-    background: black !important;
+    background: #000000 !important;
     padding-top: 2.5% !important;
     padding-bottom: 2.5% !important;
 }
 
 .nav__sideLinks {
     text-decoration: none;
-    color: white !important;
+    color: #fdfdfd !important;
     text-transform: uppercase;
     padding-left: 7%;
     font-size: 18px;
@@ -78,7 +78,7 @@
 }
 
 .offcanvas {
-    background: black !important;
+    background: #000000 !important;
     overflow: auto !important;
     height: auto !important;
 }
@@ -95,6 +95,7 @@
 
 .accordion-button::after {
     transform: rotate(-90deg);
+    margin-left: 4% !important;
 }
 
 .accordion-button:focus {
@@ -136,6 +137,7 @@
     }
     .nav__socialLink {
         margin-bottom: 0 !important;
+        padding-left: 10%;
     }
     .nav__socialsLi {
         margin-bottom: 0 !important;
@@ -148,9 +150,6 @@
         padding-bottom: 1.3%;
         backdrop-filter: blur(8px);
     }
-}
-
-@media (max-width: 1100px) {
 }
 
 @media (max-width: 2000px) {
@@ -175,16 +174,16 @@ ul {
 }
 
 .nav__signInBtn {
-    color: white;
-    background: black;
+    color: #fdfdfd;
+    background: #000000;
     text-transform: uppercase;
-    border: 1px solid white;
+    border: 1px solid #fdfdfd;
     padding: 1.3% 4%;
 }
 
 .nav__signUpBtn {
-    color: white;
-    background: black;
+    color: #fdfdfd;
+    background: #000000;
     text-transform: uppercase;
     border: none;
     padding: 1.3% 4%;
@@ -192,9 +191,9 @@ ul {
 
 .nav__signInBtn:hover,
 .nav__signUpBtn:hover {
-    color: black;
-    background: white;
-    border: 1px solid black;
+    color: #000000;
+    background: #fdfdfd;
+    border: 1px solid #000000;
 }
 
 .nav__signText {

@@ -175,7 +175,7 @@
 }
 
 .artist__playBtn {
-    color: white;
+    color: #fdfdfd;
     background: #6bc9a4;
     text-transform: uppercase;
     border: none;
@@ -183,21 +183,21 @@
 }
 
 .artist__playBtn:hover {
-    color: black;
-    background: white;
+    color: #000000;
+    background: #fdfdfd;
 }
 
 .artist__shareBtn {
     background: transparent;
-    color: white;
+    color: #fdfdfd;
     text-transform: uppercase;
-    border: 1px solid white;
+    border: 1px solid #fdfdfd;
     padding: 2% 4%;
 }
 
 .artist__shareBtn:hover {
-    background: white;
-    color: black;
+    background: #fdfdfd;
+    color: #000000;
 }
 
 @media (max-width: 767px) {
